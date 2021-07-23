@@ -10,6 +10,6 @@ bot.reply_to(massage,"hellow")
 
 @bot.message_handler(commands=["start"])
 def send_message(message):
-bot.send_message(massage,"hellow")
+bot.send_message(massage,"how")
 
 bot.polling()
